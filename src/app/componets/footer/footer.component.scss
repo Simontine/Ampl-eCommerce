@@ -1,0 +1,114 @@
+.details{
+    height: 250px;
+    padding-top: 50px;
+}
+
+h3{
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #37517e;
+}
+
+.text1{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Jost", sans-serif;
+    color: #5e5e5e;
+    }
+
+    h4 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #37517e;
+        position: relative;
+    }
+
+     .ul .i {
+        padding-right: 2px;
+        color: #47b2e4;
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    ol, ul {
+        padding-left: 0rem;
+    }
+
+    ul a {
+        color: #777777;
+        transition: 0.3s;
+        display: inline-block;
+        line-height: 1;
+        text-decoration: none;
+        
+    }
+
+    .a:hover {
+        text-decoration: #11c2d6;
+        color: #11c2d6;
+        text-shadow: #11c2d6;
+    }
+    
+     
+    .item a:hover {
+        color: #11c2d6;
+    }
+
+    
+    .bx {
+        font-family: boxicons !important;
+        font-weight: 400;
+        font-style: normal;
+        font-variant: normal;
+        line-height: 1;
+        text-rendering: auto;
+        display: inline-block;
+        text-transform: none;
+        speak: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .social
+    {
+        font-family: boxicons !important;
+        font-weight: 400;
+        font-style: normal;
+        font-variant: normal;
+        line-height: 1;
+        text-rendering: auto;
+        display: inline-block;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #777777;
+    }
+
+    .social-icons{
+        list-style: none;
+    }
+
+    .social-icons a{
+        color: rgba(40, 58, 90, 0.9);
+        padding-right: 5px;
+    }
+
+    .social-icons a:hover{
+        color: #11c2d6;
+    }
+
+    .social-icons li {
+        display: inline-block;
+        margin-right: 10px; /* add spacing between items */
+        font-size: 18px;
+    }
+
+
+    
+    
+      

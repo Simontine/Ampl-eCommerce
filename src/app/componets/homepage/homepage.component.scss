@@ -1,0 +1,121 @@
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+// Hero
+
+@keyframes animation-1 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.hero .shape {
+    position: absolute;
+}
+
+.hero .shape.shape-1 {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    left: 130px;
+    bottom: 50%;
+    border-radius: 50%;
+    background: #637ae4;
+    animation: animation-1 2s linear infinite;
+    z-index: -1;
+}
+
+.hero .shape.shape-2 {
+    width: 39px;
+    height: 39px;
+    left: 150px;
+    bottom: 40px;
+    border-radius: 50%;
+    background: #0898e7;
+    animation: animation-1 2s linear infinite;
+    z-index: -1;
+}
+.hero .shape.shape-3 {
+    width: 19px;
+    height: 19px;
+    left: 26px;
+    bottom: 25%;
+    border-radius: 50%;
+    background: #ff846f;
+    animation: animation-1 2s linear infinite;
+    z-index: -1;
+}
+
+.hero .shape.shape-4 {
+    width: 59px;
+    height: 59px;
+    left: 35%;
+    bottom: 59%;
+    border-radius: 50%;
+    background: #77b9da;
+    animation: animation-1 2s linear infinite;
+    z-index: -1;
+}
+
+.hero .shape.shape-5 {
+    width: 29px;
+    height: 29px;
+    left: 35%;
+    bottom: 59%;
+    border-radius: 50%;
+    background: #d777da;
+    animation: animation-1 2s linear infinite;
+    z-index: -1;
+}
+
+.hero .shape.shape-6 {
+    width: 129px;
+    height: 129px;
+    left: 31%;
+    bottom: 19%;
+    border-radius: 50%;
+    background: #9a77da;
+    animation: animation-1 2s linear infinite;
+    z-index: -1;
+}
+// end of Hero
+
+
+
+/* for the pen */
+html, body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #f2f2f2;
+  }
+  
+
+/**/
+
+@media screen and (max-width:900px){
+    .shape-6{
+        display: none;
+    }
+    .shape-1
+    {
+        display: none;
+    }
+    
+}
+
+.btn-dark
+{
+    border-radius: 50px;
+}
+
